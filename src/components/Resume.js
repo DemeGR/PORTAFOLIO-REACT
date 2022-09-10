@@ -59,28 +59,76 @@ export default  class Resume extends Component {
             </div> 
          </div>
 
-
-         <div className="row skill">
-
+         <div className="row skills">
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
 
             <div className="nine columns main-col">
+              {
+                resumeData.skills && resumeData.skills.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.CompanyName}</h3>
+                          <p className="info">
+                          {item.skillsname}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+         </div>
+
+         <div className="row idioms">
+            <div className="three columns header-col">
+               <h1><span>Idioms</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.idioms && resumeData.idioms.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <p className="info">
+                          {item.idiomsname}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+         </div>
+
+         <div className="row knowledge">
+
+            <div className="three columns header-col">
+               <h1><span>knowledge</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
 
                <p>
-               {resumeData.skillsDescription}
+               {resumeData.knowledgeDescription}
                </p>
 
    				<div className="bars">
 
-   				   <ul className="skills">
+   				   <ul className="knowledge">
                 {
-                  resumeData.skills && resumeData.skills.map((item) => {
+                  resumeData.knowledge && resumeData.knowledge.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <span className={`bar-expand ${item.knowledgename.toLowerCase()}`}>
+                      </span><em>{item.knowledgename}</em>
                       </li>
                     )
                   })

@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Demetrio Guzmán",
-    "role": "enthusiast in mechanical and electronic engineering",
+    "role": "student of mechatronics and enthusiast in mechanical and electronic engineering. My elective is advanced control.   ",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": " My area of interest is in power electronics and renewable energy. I am currently learning about web development. In my free time I love to draw, take pictures and play the guitar.",
+    "roleDescription": " My area of interest is in power electronics and renewable energy. I am currently learning about web development. ",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,9 +22,11 @@ let resumeData = {
           "className":"fa fa-twitter"
         }*/
       ],
-    "aboutme":"I am currently a pre-final year student at the Technology University of the Mixteca. I am in the elective advanced control. And I believe that sooner or later discipline will overcome intelligence.",
+    "aboutme":"I am currently a pre-final year student at the Technology University of the Mixteca. In my free time I love to draw, take pictures and play the guitar. And I believe that sooner or later discipline will overcome intelligence.",
     "address":"Oaxaca, Mexico",
     "website":"https://github.com/DemeGR",
+    "mail":"gurd970714@gs.utm.mx  demeutm@gmail.com",
+    "tel":"953 144 30 70",
     "education":[
       {
         "UniversityName":"Technological University of the Mixteca",
@@ -50,16 +52,38 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillsname":"Teamwork"
       },
       {
-        "skillname":"CSS"
+        "skillsname":"Creative"
       },
       {
-        "skillname":"Reactjs"
+        "skillsname":"Autodidact"
+      }
+    ],
+    "knowledgeDescription":"Your knowledge here",
+    "knowledge":[
+      {
+        "knowledgename":"C"
+      },
+      {
+        "knowledgename":"HTML5"
+      },
+      {
+        "knowledgename":"CSS"
+      },
+      {
+        "knowledgename":"Reactjs"
+      }
+    ], 
+    "idioms":[
+      {
+        "idiomsname":"Spanish(100%)"
+      },
+      {
+        "idiomsname":"English(50%)"
       }
     ],
     "portfolio":[

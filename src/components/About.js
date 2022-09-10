@@ -34,6 +34,10 @@ export default class About extends Component {
                     </span>
                     <br></br>
                     <span>{resumeData.website}</span>
+                    <br></br>
+       				  <span>{resumeData.mail}</span>
+                     <br></br>
+       				  <span>{resumeData.tel}</span>
        					   </p>
                   </div>
                </div>
