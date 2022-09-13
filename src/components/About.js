@@ -29,13 +29,19 @@ export default class About extends Component {
                   <p className="address">
        						<span>{resumeData.name}</span>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
+                     <h7>Address</h7>
+                     <br></br>
+                     <span>{resumeData.address}</span>
                     <br></br>
+                     <h8>GitHub</h8>
+                     <br></br>
                     <span>{resumeData.website}</span>
                     <br></br>
+                     <h9>Mail</h9>
+                     <br></br>
        				  <span>{resumeData.mail}</span>
+                     <br></br>
+                     <h10>Phone</h10>
                      <br></br>
        				  <span>{resumeData.tel}</span>
        					   </p>

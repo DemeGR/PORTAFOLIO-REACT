@@ -1,8 +1,8 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Demetrio Guzmán",
-    "role": "student of mechatronics and enthusiast in mechanical and electronic engineering. My elective is advanced control.   ",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Demetrio Guzmán Reyes",
+    "role": "student of Mechatronics Engineering. My elective is advanced control",
+    "linkedinId":"Demetrio Guzmán Reyes",
     "skypeid": "Your skypeid",
     "roleDescription": " My area of interest is in power electronics and renewable energy. I am currently learning about web development. ",
     "socialLinks":[
@@ -22,8 +22,8 @@ let resumeData = {
           "className":"fa fa-twitter"
         }*/
       ],
-    "aboutme":"I am currently a pre-final year student at the Technology University of the Mixteca. In my free time I love to draw, take pictures and play the guitar. And I believe that sooner or later discipline will overcome intelligence.",
-    "address":"Oaxaca, Mexico",
+    "aboutme":"I am currently a pre-final year student at the Technology University of the Mixteca. I am enthusiast in mechanical and electronic engineeringIn. In my free time I love to draw, take pictures and play the guitar. And I believe that sooner or later discipline will overcome intelligence.",
+    "address":"Huajuapan de León, Oaxaca, Mexico",
     "website":"https://github.com/DemeGR",
     "mail":"gurd970714@gs.utm.mx  demeutm@gmail.com",
     "tel":"953 144 30 70",
@@ -63,10 +63,19 @@ let resumeData = {
         "skillsname":"Autodidact"
       }
     ],
-    "knowledgeDescription":"Your knowledge here",
+    //"knowledgeDescription":"Your knowledge here",
     "knowledge":[
-      {
-        "knowledgename":"C"
+      { 
+      "knowledgename":"MCU_ATEmega328P"
+     },
+      { 
+        "knowledgename":"PSIM_simulator"
+       },
+       { 
+        "knowledgename":"PROTEUS_simulator"
+       },
+      { 
+       "knowledgename":"C"
       },
       {
         "knowledgename":"HTML5"
@@ -93,19 +102,9 @@ let resumeData = {
         "imgurl":"images/portfolio/sere.PNG"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/coffee.jpg"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Reloj con alarma musical",
+        "description":"Implentado en el microcotrolador ATEmega328P.",  
+        "imgurl":"images/portfolio/reloj.jpeg"
       }
     ],
     "testimonials":[

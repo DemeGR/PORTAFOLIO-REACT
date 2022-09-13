@@ -291,7 +291,7 @@ ul#nav li.current a { color: #F06000; }
 	padding: 0;
 	text-align: left;
 }
-.bars .skills {
+.bars .knowledge {
   	margin-top: 36px;
    list-style: none;
 }
@@ -340,13 +340,34 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+
+.mcu_atemega328p{
+   width: 85%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.proteus_simulator{
+   width: 60%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.psim_simulator{
+   width: 60%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.c {
+   width: 78%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
 .css {
-  	width: 90%;
+  	width: 50%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
