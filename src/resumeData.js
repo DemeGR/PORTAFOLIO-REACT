@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Demetrio Guzmán Reyes",
-    "role": "student of Mechatronics Engineering. My elective is advanced control",
+    "name": "Demetrio Guzmán ",
+    "role": "student of Mechatronics Engineering with elective advanced control",
     "linkedinId":"Demetrio Guzmán Reyes",
     "skypeid": "Your skypeid",
-    "roleDescription": " My area of interest is in power electronics and renewable energy. I am currently learning about web development. ",
+    "roleDescription": " Looking for an opportunity in the area in power electronics and renewable energy. I want to join the energy industry to strengthen my technical skills and thus generate sustainable solutions that have a positive impact on the environment.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -54,6 +54,9 @@ let resumeData = {
     ],
     "skills":[
       {
+        "skillsname":"Disciplined"
+      },
+      {
         "skillsname":"Teamwork"
       },
       {
@@ -61,6 +64,12 @@ let resumeData = {
       },
       {
         "skillsname":"Autodidact"
+      },
+      {
+        "skillsname":"Spanish(native)"
+      },
+      {
+        "skillsname":"English(FC1)"
       }
     ],
     //"knowledgeDescription":"Your knowledge here",
@@ -88,22 +97,17 @@ let resumeData = {
       }
     ], 
     "idioms":[
-      {
-        "idiomsname":"Spanish(100%)"
-      },
-      {
-        "idiomsname":"English(50%)"
-      }
+     
     ],
     "portfolio":[
       {
-        "name":"Serpientes y escaleras",
+        "name":"Snakes and Ladders",
         "description":"HTML5, javaScript y css",
         "imgurl":"images/portfolio/sere.PNG"
       },
       {
-        "name":"Reloj con alarma musical",
-        "description":"Implentado en el microcotrolador ATEmega328P.",  
+        "name":"Music alarm clock",
+        "description":"Implemented in the microcontroller ATEmega328P",  
         "imgurl":"images/portfolio/reloj.jpeg"
       }
     ],

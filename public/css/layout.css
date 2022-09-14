@@ -272,6 +272,18 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .dates {
+   font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .knowLe {
+   font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -318,7 +330,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	
    display: inline-block;
   	height: 42px;
    line-height: 42px;
